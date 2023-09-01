@@ -54,6 +54,7 @@ R. Utilizamos o codigo .js para construir as perguntas e as funções conforme c
 
 
 - Como fariamos para armazerar os pontos por jogadores e incluir em uma tabela o Ranking de pontuação?
+
 R. Para resolver este desafio, optamos em utilizar o LocaStorage que mantém o dado gravado mesmo se o browser é fechado e reaberto. Isso facilita criar alguns comportamentos de interface durante o uso do usuário. E obviamente, nem preciso dizer, que não serve para gravar dados sensíveis.
 
 
