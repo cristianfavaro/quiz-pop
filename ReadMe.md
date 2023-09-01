@@ -1,6 +1,6 @@
 # Construindo um Questionário HTML, CSS e JavaScript.
 
-![Tela inicial](./imagem/primeira_tela.png)
+![Tela inicial](./imagem/primeira_tela1.png)
 
 Lista de reprodução de vídeos: https://share.vidyard.com/watch/uY1mEnobLS442GXMrbS2Vv?
 
@@ -35,7 +35,7 @@ Fase de Construção ;
 # Etapas de Uso da Pagina;
 
 ## 1. Pagina Inicial;
-![Tela inicial](./imagem/primeira_tela.png)
+![Tela inicial](./imagem/primeira_tela1.png)
 
 ## 2. Incluir Nome do Jogador;
 
