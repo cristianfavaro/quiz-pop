@@ -32,6 +32,10 @@
   background-color: #dc3545;
 }
 
+.alternativa-correta {
+  background-color: cornflowerblue;
+}
+
 /* HUD */
 
 #hud {
@@ -60,3 +64,4 @@
   background-color: green;
   width: 0%;
 }
+
