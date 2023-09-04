@@ -10,6 +10,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
 
+let alternativa_correta;
+
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 4;
@@ -54,14 +56,23 @@ choices.forEach((choice) => {
 
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
+    } else {
+
+      const index_alternativa_correta = currentQuestion.answer - 1;
+
+      alternativa_correta = choices[index_alternativa_correta];
+
+      alternativa_correta.classList.add('alternativa-correta');
+
     }
 
     selectedChoice.parentElement.classList.add(classToApply);
 
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
+      alternativa_correta.classList.remove('alternativa-correta');
       getNewQuestion();
-    }, 1000);
+    }, 3000);
   });
 });
 
